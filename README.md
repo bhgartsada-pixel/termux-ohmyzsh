@@ -1,13 +1,4 @@
-# Termux-ohmyzsh
 
-A fork from [oh-my-termux](https://github.com/4679/oh-my-termux) 。让你的 Termux 变的五颜六色～
-
-为 Termux 添加 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 终端环境以及 [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，设置色彩样式（大部分来自 [Gogh](https://github.com/Mayccoll/Gogh) ）和 Powerline 字体（来自 [powerline/fonts](https://github.com/powerline/fonts)）。oh-my-zsh 主题默认为 agnoster，颜色样式默认为 Tango，字体默认为 Ubuntu。
-
-**此 Repo 使用 Termux 官方源，在中国大陆可能需要将 Termux 应用添加到代理列表。**
-## 使用：
-```shell
-sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 ```
 
 ## 设置色彩样式：
@@ -18,12 +9,7 @@ sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/instal
 
 ## 设置字体
 运行`chfont`更换字体，或者：
-```shell
-~/.termux/fonts.sh
-```
-
-## 需要软件包：
- - curl
+```sh
 
 ## 恢复到安装前的环境
 1. 在 home 目录下可找到按日期命名的 zshrc 备份文件，形如 `.zshrc.bak.2018.1.1-00:00:00`，将其文件名恢复为 `.zshrc`。若不存在备份文件，删除当前的 `.zshrc`。
@@ -124,3 +110,4 @@ Tango color scheme + agnoster oh-my-zsh theme + Ubuntu font:
 
 ## Sponsors 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+chmod +x *
